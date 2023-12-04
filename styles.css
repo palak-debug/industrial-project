@@ -1,0 +1,209 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+/* Welcome Page styles */
+.welcome-page {
+    text-align: center;
+    padding: 100px 0;
+    background: url('https://i.pinimg.com/564x/44/5e/f3/445ef34389259685e173857448f6f5ea.jpg') center/cover no-repeat;
+    color: #fff;
+    animation: fadeInUp 1s ease-out; /* Animation for the welcome page */
+}
+
+.welcome-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.welcome-page p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF9800;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFC107;
+    transform: scale(1.05);
+}
+
+/* Navigation styles */
+.navigation {
+    margin-bottom: 40px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #FFC107;
+}
+
+/* Content section styles */
+.content-section {
+    margin: 80px 0;
+}
+
+.content-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    font-size: 1.2em;
+}
+
+/* CTA Section styles */
+.cta-section {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #333;
+}
+
+.cta-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Illustrations Section styles */
+.illustrations img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Glossary Section styles */
+.contents-section {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.glossary-entry {
+    margin-bottom: 40px;
+}
+
+.glossary-entry h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.glossary-entry p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.glossary-entry:hover {
+    background-color: #333;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    /* Add responsive styles */
+}
+/* Additional Styles for Content Section */
+.contents-section {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.contents-section h2 {
+    color: #333;
+}
+
+.contents-section h3 {
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+.contents-section p {
+    color: #555;
+}
+
+/* List Styles */
+.contents-section ul {
+    padding-left: 20px;
+    list-style: disc;
+    color: #555;
+}
+
+.contents-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+.navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navigation li {
+    margin: 0 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: #333;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    /* Add responsive styles */
+    .contents-section {
+        padding: 20px;
+    }
+}
